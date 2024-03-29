@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 20px;
+}
+.container{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(74, 74, 74);
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 3px dashed darkturquoise;
+}
+.container .display{
+    display: flex;
+    justify-content: flex-end;
+}
+.container .display input{
+    width: 95%;
+    height: 70px;
+    text-align: right;
+    margin-top: 30px;  
+    margin-right: 10px;
+    border-radius: 10px;
+    background: transparent;
+    outline: none;
+    border: transparent;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    border: 1px dotted;
+}
+.container .button input{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(71, 70, 70);
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow:  3px 2px 2px 2px rgba(0, 0, 0, 0.5), -3px -2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.container .button input:hover{
+    box-shadow:  3px 2px 2px 2px rgba(0, 0, 0, 0.7), -3px -2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.container .button{
+    margin-left: 30px;
+}
+.container .button .equal{
+    width: 125px;
+    border-radius: 10px;
+}
